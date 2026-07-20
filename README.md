@@ -40,5 +40,5 @@ The entire public API is made up of only four functions. Please refer to the Dox
 
 This code was written with embedded systems in mind. There is no use of dynamic memory (i.e. malloc) in this library. The only external dependancy which this library has is on the C standard library. All real number data values stored in this library are scaled up by some factor to maintain a certain level of accuracy. This way, the use of floating point data types is avoided.
 
-[1]: http://www.stack.nl/~dimitri/doxygen/
+[1]: https://www.doxygen.nl/index.html
 [2]: https://cmocka.org/
