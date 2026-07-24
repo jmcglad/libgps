@@ -58,7 +58,7 @@ THE SOFTWARE.
 #define GPS_OK                (0) /**< Indicates no error has occured */
 #define GPS_ERROR_HEAD        (1) /**< The header is missing from the NMEA sentence */
 #define GPS_ERROR_FOOT        (2) /**< The footer is missing from the NMEA sentence */
-#define GPS_ERROR_CHECKSUM    (3) /**< The checksum did not match the computer value */
+#define GPS_ERROR_CHECKSUM    (3) /**< The checksum did not match the computed value */
 #define GPS_ERROR_TRUNCATED   (4) /**< The input NMEA sentence is incomplete */
 #define GPS_ERROR_UNSUPPORTED (5) /**< An unsupported operation was requested */
 
