@@ -1,35 +1,10 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Build directory
+build/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Python virtual environment
+# Useful when developing conanfile.py
+.venv/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-
-# User files
-*.user
+# CMake user presets
+# https://cmake.org/cmake/help/latest/manual/cmake-presets.7.html#introduction
+CMakeUserPresets.json

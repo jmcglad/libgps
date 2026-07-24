@@ -1,15 +1,7 @@
-find_package(CMocka REQUIRED)
+find_package(Catch2 3 REQUIRED)
+add_executable(tests test_gps.cpp benchmark_gps.cpp)
+target_link_libraries(tests PRIVATE Catch2::Catch2WithMain PRIVATE ${PROJECT_NAME})
 
-add_definitions(${CMOCKA_DEFINITIONS})
-
-include_directories(
-    "${PROJECT_SOURCE_DIR}/src"
-    ${CMOCKA_INCLUDE_DIRS}
-)
-
-add_executable(test-gps test_gps.c)
-target_link_libraries(
-    test-gps
-    ${PROJECT_NAME}
-    ${CMOCKA_LIBRARIES}
-)
+include(CTest)
+include(Catch)
+catch_discover_tests(tests)

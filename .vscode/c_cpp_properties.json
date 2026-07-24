@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Common",
+            "includePath": ["${workspaceFolder}/**", "~/.conan2/**"]
+        }
+    ],
+    "version": 4,
+    "enableConfigurationSquiggles": true
+}
