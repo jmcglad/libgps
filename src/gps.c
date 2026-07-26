@@ -52,7 +52,7 @@ static char uint8_to_hex_char(const uint8_t n)
         '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'
     };
 
-    if ((0 <= n) && (n <= 0x0F)) return hex[n];
+    if (n <= 0x0F) return hex[n];
     return hex[0];
 }
 
