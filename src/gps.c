@@ -422,7 +422,6 @@ static void parse_date(char *destination, const char *nmea)
     if (is_digit_0_to_9(c0))
     {
         destination[3] = c0; /* Y */
-        c0 = *nmea++;
     }
     else
     {
