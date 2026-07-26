@@ -38,8 +38,8 @@ THE SOFTWARE.
  * by some scale factor.
  */
 
-#ifndef _GPS_H_
-#define _GPS_H_
+#ifndef GPS_H
+#define GPS_H
 
 #include <stdint.h>
 
@@ -166,4 +166,4 @@ const char *gps_error_string(const int e);
 }
 #endif
 
-#endif /* _GPS_H_ */
+#endif /* GPS_H */
